@@ -1,3 +1,7 @@
+'''
+Вычисление Дискриминанта
+'''
+
 from math import *
 from tkinter import *
 
