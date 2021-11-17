@@ -1,6 +1,7 @@
 from math import *
 from tkinter import *
 
+
 def setwindow(root):
     root.title('Окно программы')
     root.resizable(False, False)
@@ -11,6 +12,7 @@ def setwindow(root):
     x = int(ws / 2 - w / 2)
     y = int(hs / 2 - h / 2)
     root.geometry('{0}x{1}+{2}+{3}'.format(w, h, x, y))
+
 
 def resbt(event=False):
     global ena
@@ -32,6 +34,7 @@ def resbt(event=False):
             lr.config(text='Корней нет')
     except ValueError:
         lr.config(text='Введите корректные значения!')
+
 
 tr = Tk()
 setwindow(tr)
