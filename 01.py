@@ -1,3 +1,6 @@
+'''
+Построение графиков функций
+'''
 import matplotlib.pyplot as plt
 
 line_blue = plt.plot([1, 5, -3, -0.5], [1, 25, 9, 0.25], label='Синяя линия')
